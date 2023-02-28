@@ -1,0 +1,20 @@
+{
+  "name": "whitelist-dapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Manethpak/whitelist-dapp.git",
+  "author": "manethpak",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network goerli",
+    "verify": "hardhat verify --network goerli"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.7"
+  }
+}
